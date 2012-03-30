@@ -63,5 +63,6 @@ if ($_SESSION['login']!=null){
 		$form.=Auth::ShowAuthForm($word);
 		unset($_SESSION['auth_error']);
 	}
+	
 include 'core/html_templates/html_template.php';
 ?>
