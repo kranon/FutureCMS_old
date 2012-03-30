@@ -14,5 +14,5 @@ $word=$db->WordsTranslate($lang);
 
 $form=$db->GalleryRead($lang);
 
-include 'core/html_templates/html_template.php';
+include 'core/html_templates/other_page_html.php';
 ?>
