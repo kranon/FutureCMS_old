@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Катэхетычны каледж імя Зыгмунта Лазінскага</title>
+		<link>http://college.catholic.by/</link>
+		<description>Катэхетычны каледж імя Зыгмунта Лазінскага — </description>
+		<language>ru-ru</language>
+		<copyright>Copyright 2012 www.college.catholic.by — Катэхетычны каледж імя Зыгмунта Лазінскага</copyright>
+		<author>Катэхетычны каледж імя Зыгмунта Лазінскага</author>
+
+		<image>
+			<url>http://college.catholic.by/design/symbol.png</url>
+			<title>Катэхетычны каледж імя Зыгмунта Лазінскага</title>
+			<link>http://college.catholic.by/</link>
+		</image>
+
+		<item>
+			<title>Расписание занятий на 14-15.01.2012</title>
+			<link>http://college.catholic.by/read_news.php?id=2</link>
+			<description>Расписание занятий на 14-15.01.2012</description>
+			<guid>http://college.catholic.by/read_news.php?id=2</guid>
+		</item>
+
+	</channel>
+</rss> 

@@ -1,0 +1,183 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+body{
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+}
+a{
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+th{
+	background-color: #BFF08E;
+	text-align: center;
+}
+a:hover{
+	text-decoration: none;
+}
+p{
+	margin: 0 0 18px
+}
+img{
+	border: none;
+}
+table{
+	margin: 5px;
+}
+table a{
+	margin: 5px;
+}
+.in_text{
+	width: 350px;
+}
+input[type="submit"]{
+    margin-top: 7px;
+    width: 155px;
+	height: 30px;
+}
+textarea{
+    width: 100%;
+}
+#mess{
+	position: fixed;
+	background-color: green;
+	top: 0px;
+	left: 50%;
+	color: white;
+}
+#wrapper{
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+#header{
+	height: 30px;
+	background: #FFE680;
+    font-size: 14pt;
+    padding:8px 0 0 5px;
+    color: #404040;
+}
+#user{
+	position:absolute;
+	right:10px;
+	top: 7px;
+	font-size: 11pt;
+}
+#header a{
+	font-size: 11pt;
+}
+.head_link{
+    position: absolute;
+	left: 150px;
+	top: 10px;
+}
+#middle{
+	width: 100%;
+	padding: 0 0 100px;
+	height: 1%;
+}
+#middle:after{
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#container{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content{
+	padding: 0 0 0 155px;
+}
+#sideLeft{
+	float: left;
+	width: 140px;
+	margin-left: -100%;
+    padding-left: 10px;
+	position: relative;
+	background: #B5E3FF;
+}
+#menu a{
+    color: #0000FF;
+    text-decoration:none;
+    font-weight: 600;
+}
+#menu a:hover{
+    color: #000080;
+    text-decoration:none;
+}
+#footer{
+	margin: -20px auto 0;
+	min-width: 1000px;
+	height: 20px;
+	background: #BFF08E;
+	padding: 10px 10px;
+}
+.comment{
+	position: relative;
+	min-height: 60px;
+	width:90%;
+	border: #C5C5C5 solid 1px;
+	margin:5px 0 5px 0;
+	border-radius: 5px;
+}
+.com_text{
+	position: absolute;
+	top:30px;
+	left:120px;
+}
+.com_name_date{
+	position: absolute;
+	top:10px;
+	left:120px;
+	font-size: 0.8em;
+}
+.com_username{
+	/*position: absolute;
+	top:10px;
+	left:120px;*/
+
+}
+.com_ava{
+	margin: 5px;
+}
+.com_del{
+	position: absolute;
+	top:10px;
+	right:10px;
+}
+.al_center{
+	text-align: center;
+}
+.ed{
+	vertical-align: middle;
+	text-align: center;
+	width: 24px;
+}
+.head_tr{
+	background-color:#BFF08E;
+}
+.tr_color{
+	background-color:#B5E3FF;
+}
+.group_sel{
+	width: 154px;
+}
+.all_elem a{
+	text-decoration: none;
+	padding: 2px;
+}
+.all_elem a:hover{
+	color:green;
+}

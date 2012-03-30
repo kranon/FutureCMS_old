@@ -1,0 +1,19 @@
+#reg_form label.error{
+	margin-left: 10px;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #F00;
+}
+#reg_form input.error, #reg_form select.error{
+	background: #FFC6C6;
+}
+
+#quest label.error{
+	margin-left: 10px;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #F00;
+}
+#quest input.error, #quest select.error{
+	background: #FFC6C6;
+}

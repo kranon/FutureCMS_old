@@ -1,0 +1,10 @@
+$('tr').live('mouseover',function(){
+					$(this).addClass('tr_color');
+					//$('#head').removeClass('tr_color').addClass('head_tr');
+					}
+				);
+$('tr').live('mouseout',function(){
+					$(this).removeClass('tr_color');
+					//$('#head').addClass('head_tr');
+					}
+				);
