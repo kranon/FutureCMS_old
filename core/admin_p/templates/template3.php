@@ -276,7 +276,8 @@
 				break;
 // settings (admin) ------------------------------------------------------------------------------
 				case 'settings':if ($group==1){
-					$f=file_get_contents('../../html_templates/html_template.php');
+					$main_page=file_get_contents('../../html_templates/main_page_html.php');
+					$other_page=file_get_contents('../../html_templates/other_page_html.php');					
 					?>
 					<script type="text/javascript" src="../controller/js/ajax_settings.js"></script>
 					<script type="text/javascript">
@@ -343,10 +344,10 @@
 							</ul>
 							<form method="post" action="#" name="edit_settings_html" id="edit_settings_html" class="form">	
 								<div id="main_html">
-									<textarea rows="40" class="span7" name="main_html_data" id="main_html_data" ><?php echo $f;?></textarea>
+									<textarea rows="40" class="span7" name="main_html_data" id="main_html_data" ><?php echo $main_page;?></textarea>
 								</div>
 								<div id="other_html">
-									<textarea rows="40" class="span7" name="other_html_data" id="other_html_data"></textarea>
+									<textarea rows="40" class="span7" name="other_html_data" id="other_html_data"><?php echo $other_page;?></textarea>
 								</div><br />
 								<input type="button" class="btn-success" id="save_btn" value="Сохранить" />
 							</form>

@@ -28,9 +28,9 @@
             <div id="symbol">
                 <a href="index.php"><img src="design/symbol.png" class="iePNG"></a>
             </div>
-			<div id="lang">
-				<a href="core/lang1.php"> BY </a>|<a href="core/lang2.php"> RU </a>
-			</div>
+	<div id="lang">
+		<a href="core/lang1.php"> BY </a>|<a href="core/lang2.php"> RU </a>
+	</div>
             <br /><h1><?php echo $header;?></h1><br />
             <div id="user">
                 <?php
@@ -57,7 +57,6 @@
             <div id="container">
                 <div id="content">
                     <h3><?php echo $name;?></h3>
-ssssss
                     <?php 
 		echo $db->TextRead($link,$lang);
 		echo $form;

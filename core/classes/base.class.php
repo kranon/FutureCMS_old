@@ -61,13 +61,14 @@ class DataBase{
 				$caption=$row['caption_'.$lang];
 				$mor['lang1']='Падрабязней';
 				$mor['lang2']='Подробней';
-				echo '<div class="news">
+				$news.='<div class="news">
 				<a href="read_news.php?id='.$row['id'].'"><h4 class="news_caption">'.$caption.'</h4></a>
 				<span class="news_date">'.$row['date'].'</span>
 				<span class="news_num_comments">Комментариев: '.$count.'</span>
 				<span class="news_read"><a href="read_news.php?id='.$row['id'].'">'.$mor[$lang].'</a></span><br />
 				</div>';
 			}
+			return $news;
     	}
     }
     // Добавление новости
@@ -102,8 +103,9 @@ class DataBase{
 			
     		$result = self::query($sql);
             while ($row = mysql_fetch_array($result, MYSQL_BOTH)){
-           		echo $row[0];
+           		$news_text=$row[0];
             }
+			return $news_text;
     	}
     }
 	// Добавление комментария к новости

@@ -96,8 +96,8 @@ input{
 	top:-6px;
     padding: 0 0 1px 0;
     color:#FFFFFF;
-    z-index: 5;
-	background-image: url('menu2.jpg');
+	z-index: 5;
+	background-image: url('menu.jpg');
 }
 #symbol{
     position: relative;

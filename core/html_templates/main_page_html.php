@@ -28,9 +28,9 @@
             <div id="symbol">
                 <a href="index.php"><img src="design/symbol.png" class="iePNG"></a>
             </div>
-			<div id="lang">
-				<a href="core/lang1.php"> BY </a>|<a href="core/lang2.php"> RU </a>
-			</div>
+	<div id="lang">
+		<a href="core/lang1.php"> BY </a>|<a href="core/lang2.php"> RU </a>
+	</div>
             <br /><h1><?php echo $header;?></h1><br />
             <div id="user">
                 <?php
@@ -44,12 +44,12 @@
                     if (($_SESSION['group']=='1')|($_SESSION['group']=='2')){
                         echo '<a href="core/admin_p/">'.$word[3].'</a>';
                     }
-					include 'core/auth.php';
+		include 'core/auth.php';
                 ?>
             </div>
         </div><!-- #header-->
         <div id="middle">
-            <div id="menu"class="menu_grad">
+            <div id="menu" class="menu_grad">
                 <ul id="nav">
                     <?php $db->MenuRead($lang);?>
                 </ul>
@@ -58,9 +58,9 @@
                 <div id="content">
                     <h3><?php echo $name;?></h3>
                     <?php 
-						echo $db->TextRead($link,$lang);
-						echo $form;
-					?>
+		echo $db->TextRead($link,$lang);
+		echo $form;
+	?>
                 </div><!-- #content-->
             </div><!-- #container-->
             <?php include 'core/sideRight.php';?>

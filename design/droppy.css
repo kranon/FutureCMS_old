@@ -39,7 +39,7 @@
 	padding: 3px 9px 3px 9px;
 	margin-bottom: -1px;
 }
-#nav li.hover a { background-color: #144d5c;}
+#nav li.hover a { background-image: url(menu_active.jpg);/*background-color: #144d5c;*/}
 #nav ul { top: 25px; }
 #nav ul li a { background-color: #144d5c; }
 #nav ul a.hover { background-color: #0e2f38; }
