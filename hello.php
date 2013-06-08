@@ -6,6 +6,8 @@ else { $lang='lang1'; }
 
 $link='hello.php';
 
+//hello
+
 $title=$site[$lang]['name'].' - ';
 $header=$site[$lang]['header'];
 $name=$db->ReadPageName($link,$lang);
